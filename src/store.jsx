@@ -1,9 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import myReducer from "./todoSlice";
 
-const store=configureStore({
+import myReducer from "./cartSlice";
+
+const store= configureStore({
     reducer:{
-       todo:myReducer
+     mycart:myReducer
     }
 })
 export default store;
