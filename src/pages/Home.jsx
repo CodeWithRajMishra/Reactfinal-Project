@@ -29,7 +29,7 @@ const Home=()=>{
 
 
  const cartDataAdd=(id, name, price, categ, desc, myimg)=>{
-  dispatch(addToCart({id:id, name:name, price:price, category:categ, description:desc, image:myimg}))
+  dispatch(addToCart({id:id, name:name, price:price, category:categ, description:desc, image:myimg, qnty:1}))
  }
 
 
